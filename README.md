@@ -5,7 +5,7 @@
   <a href="https://github.com/hyper63/specify/tags/"><img src="https://img.shields.io/github/tag/hyper63/specify" alt="Current Version" /></a>
   <img src="https://github.com/hyper63/specify/workflows/.github/workflows/test.yml/badge.svg" />
 
-  <a href="https://nest.land/package/specify"><img src="https://nest.land/badage.svg" alt="nest badge" /></a>
+  <a href="https://nest.land/package/specify"><img src="https://nest.land/badge.svg" alt="nest badge" /></a>
 
   </p>
 
