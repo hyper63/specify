@@ -1,0 +1,24 @@
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        deno: [1.6.3]
+    name: Test with deno ${{ matrix.deno }}
+    
+    steps:
+      - uses: actions/checkout@master
+      
+      - name: Setup Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: ${{ matrix.deno }}
+      - name: Print deno version
+        run: deno --version
+
+      - name: Check format
+        run: deno fmt --check *.js
+
+      - name: Run tests
+        run: deno test mod_test.js
