@@ -101,3 +101,7 @@ Bug fixes are welcome
 ## License
 
 MIT
+
+## Acknowledgements
+
+The initial core of this library was a result of the Frontend Masters course Hardcore JS Patterns with Brian Lonsdorf aka Dr Boolean. For more details about how Monoids, foldMap and other functional concepts work, check out this couses: https://frontendmasters.com/courses/hardcore-js-patterns/
