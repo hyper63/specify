@@ -15,5 +15,6 @@ jobs:
       - run: |
           export PATH="/home/runner/.deno/bind:$PATH"
           eggs link ${{ secrets.NESTAPIKEY }}
-          eggs publish specify --bump --files README.md --entry mod.js --description "validation library building blocks to create custom validation libraries using a functional approach" 
+          eggs publish specify --yes
+
 
