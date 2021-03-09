@@ -1,13 +1,13 @@
 {
   "name": "specify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "validation library building blocks to create custom validation libraries using a functional approach",
   "files": [
     "./README.md",
-    "./mod.js"
+    "./mod.ts"
   ],
   "stable": true,
-  "entry": "./mod.js",
+  "entry": "./mod.ts",
   "check": true,
   "homepage": "",
   "ignore": [],

@@ -1,5 +1,5 @@
-import { assertEquals } from "./deps_test.js";
-import { and, Fail, or, Success, validate, Validation } from "./mod.js";
+import { assertEquals } from "./deps_test.ts";
+import { and, Fail, or, Success, validate, Validation } from "./mod.ts";
 const { test } = Deno;
 
 const isPresent = Validation(
