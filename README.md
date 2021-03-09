@@ -86,7 +86,7 @@ export {
   Success,
   validate,
   Validation,
-} from "https://x.nest.land/specify@0.0.1/mod.js";
+} from "https://x.nest.land/specify@0.0.2/mod.js";
 ```
 
 ## Features
